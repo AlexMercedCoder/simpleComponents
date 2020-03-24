@@ -1,5 +1,5 @@
 //////////////////////////////
-//Simple Component Library by Alex Merced of AlexMerced.com
+//Simple Component Library by Alex Merced of AlexMercedCoder.com
 /////////////////////////////
 
 //////////////

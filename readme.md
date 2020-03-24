@@ -6,6 +6,8 @@ For more features and tools try MercedUI at: https://github.com/AlexMercedCoder/
 
 The CDN link for Simple Component is: http://www.alexmercedcoder.com/SC.js
 
+To install via NPM: npm install @alexmerced/simple_components
+
 ## simpleComponent
 
 Function for creating a web component that is useable in your html.
