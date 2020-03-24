@@ -54,6 +54,5 @@ class ${options.prefix}${options.name} extends HTMLElement {
 window.customElements.define('${options.prefix}-${options.name}', ${
         options.prefix
     }${options.name})`;
-    console.log(string);
     eval(string);
 };
