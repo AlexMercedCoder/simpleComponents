@@ -1,6 +1,6 @@
 {
     "name": "@alexmerced/simple_components",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Simple component is a stripped down version of MercedUI only having the ability to create reactive components.",
     "main": "SCNPM.js",
     "scripts": {

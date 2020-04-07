@@ -25,6 +25,7 @@ connected = pass in a string with your connectedCallback function `connectedCall
 disconnected = pass in a string with your disconnectedCallback function `disconnectedCallback(){stuff to happen when component unmounted}`
 observe: pass in string with ObservedAttributes function for component constructor
 other: string to define other methods and/or define attributeChangedCallback/adoptedCallback
+debug: If set to true, will console log the underlying string that is evaluated to create the component so you can debug your component.
 
 ### Defining a component
 
