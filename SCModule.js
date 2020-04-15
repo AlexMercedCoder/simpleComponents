@@ -6,7 +6,7 @@
 //CaptureProps
 /////////////
 
-const captureProps = (element) => {
+export const captureProps = (element) => {
     const att = [...element.attributes];
     const entries = att.map((value) => {
         return [value.name, value.value];
@@ -19,7 +19,7 @@ const captureProps = (element) => {
 //SimpleComponent
 //////////////
 
-const simpleComponent = (options) => {
+export const simpleComponent = (options) => {
     options.state = JSON.stringify(options.state);
     const string = `
 
@@ -61,5 +61,3 @@ window.customElements.define('${options.prefix}-${options.name}', ${
 
     eval(string);
 };
-
-module.exports = { simpleComponent };

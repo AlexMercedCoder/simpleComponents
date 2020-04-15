@@ -45,7 +45,7 @@ class ${options.prefix}${options.name} extends HTMLElement {
     }
 
     setState(newState) {
-      this.state = newState
+      this.state = { ...this.state, ...newState };
       this.build()
     }
 
@@ -55,9 +55,9 @@ window.customElements.define('${options.prefix}-${options.name}', ${
         options.prefix
     }${options.name})`;
 
-    if(options.debug){
-      options.debug === true ? console.log(string) : ''
+    if (options.debug) {
+        options.debug === true ? console.log(string) : '';
     }
-    
+
     eval(string);
 };
